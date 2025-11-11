@@ -31,8 +31,17 @@ with DAG(
             "jar_file_uris": [],
             "args": []
         },
+        #"runtime_config": {
+        #    "version": "2.2",
+        #},
         "runtime_config": {
             "version": "2.2",
+            "container_image": "gcr.io/cloud-dataproc/spark-py:2.2",
+            "properties": {
+            "spark.executor.cores": "2",
+            "spark.executor.instances": "2",
+            "spark.driver.cores": "2"
+            }
         },
         "environment_config": {
             "execution_config": {
