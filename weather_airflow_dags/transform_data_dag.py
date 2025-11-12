@@ -35,7 +35,7 @@ with DAG(
         #    "version": "2.2",
         #},
         "runtime_config": {
-            "version": "2.2",
+            "version": "2.1",
             "container_image": "gcr.io/cloud-dataproc/spark-py:2.2",
             "properties": {
             "spark.executor.cores": "2",
