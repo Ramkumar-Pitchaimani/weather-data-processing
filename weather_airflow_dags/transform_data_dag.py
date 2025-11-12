@@ -38,7 +38,7 @@ with DAG(
             "version": "2.0",
             "properties": {
             "spark.executor.cores": "4",
-            "spark.executor.instances": "1",
+            "spark.executor.instances": "2",
             "spark.driver.cores": "4"
             }
         },
