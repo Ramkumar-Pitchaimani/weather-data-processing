@@ -37,9 +37,9 @@ with DAG(
         "runtime_config": {
             "version": "2.0",
             "properties": {
-            "spark.executor.cores": "2",
-            "spark.executor.instances": "2",
-            "spark.driver.cores": "2"
+            "spark.executor.cores": "4",
+            "spark.executor.instances": "1",
+            "spark.driver.cores": "4"
             }
         },
         "environment_config": {
