@@ -28,7 +28,9 @@ with DAG(
         "pyspark_batch": {
             "main_python_file_uri": f"gs://weather-data-gdss/script/weather_data_processing.py",
             "python_file_uris": [],
-            "jar_file_uris": [],
+            "jar_file_uris": [
+                "gs://spark-lib/bigquery/spark-bigquery-with-dependencies_2.12-0.37.0.jar"
+            ],
             "args": []
         },
         #"runtime_config": {
